@@ -1,5 +1,5 @@
 {
   "name": "floating-homespace",
   "description": "floating homespace",
-  "start_url": "index.js"
+  "start_url": "homespace.glb"
 }

@@ -74,10 +74,10 @@
       "components": [
         {
           "key": "envMap",
-          "value": "/scenes/homespace/cloudy.exr"
+          "value": "https://webaverse.github.io/floating-homespace/cloudy.exr"
         }
       ],
-      "start_url": "/scenes/homespace/"
+      "start_url": "https://webaverse.github.io/floating-homespace/"
     },
     {
       "components": [

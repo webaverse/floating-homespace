@@ -1,0 +1,201 @@
+{
+  "objects": [
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "ambient",
+        "args": [[30, 100, 255], 1]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "directional",
+        "args": [[255, 255, 255], 5],
+        "position": [1, 10, 3],
+        "shadow": [50, 4096, 0.1, 1000, 0, 0.2]
+      }
+    },
+    {
+      "type": "application/rendersettings",
+      "content": {
+        "fog": {
+          "fogType": "exp",
+          "args": [[30, 100, 255], 0.001]
+        },
+        "ssao": {
+          "kernelRadius": 8,
+          "minDistance": 0.004,
+          "maxDistance": 0.05
+        },
+        "hdr": {
+          "adaptive": true,
+          "resolution": 256,
+          "adaptionRate": 50,
+          "maxLuminance": 20,
+          "minLuminance": 0,
+          "middleGrey": 3
+        },
+        "bloom": {
+          "strength": 0.1,
+          "radius": 0.3,
+          "threshold": 0.99
+        }
+      }
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/atmospheric-sky/"
+    },
+    {
+      "position": [
+        0,
+        -10,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/cloud-cards/"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "key": "envMap",
+          "value": "/scenes/homespace/cloudy.exr"
+        }
+      ],
+      "start_url": "/scenes/homespace/"
+    },
+    {
+      "components": [
+        {
+          "key": "start",
+          "value": {
+            "y": -200
+          }
+        },
+        {
+          "key": "end",
+          "value": {
+          }
+        },
+        {
+          "key": "reset",
+          "value": {
+            "y": 10
+          }
+        }
+      ],
+      "start_url": "https://webaverse.github.io/player-position-reset/"
+    },
+    {
+      "type": "application/spawnpoint",
+      "content": {
+        "position": [
+          -27,
+          1,
+          0.5
+        ],
+        "quaternion": [
+          0,
+          0.707,
+          0,
+          0.707
+        ]
+      }
+    },
+    {
+      "position": [
+        -5.5,
+        0,
+        3.5
+      ],
+      "start_url": "https://webaverse.github.io/characters/drake.npc"
+    },
+    {
+      "position": [
+        -4,
+        0,
+        3.5
+      ],
+      "start_url": "https://webaverse.github.io/characters/hyacinth.npc"
+    },
+    {
+      "position": [
+        0,
+        0,
+        3.5
+      ],
+      "quaternion": [
+        0,
+        0.707,
+        0,
+        0.707
+      ],
+      "start_url": "https://webaverse.github.io/fox/"
+    },
+    {
+      "position": [
+        -6,
+        1,
+        -2
+      ],
+      "start_url": "https://webaverse.github.io/silsword/"
+    },
+    {
+      "position": [
+        -6,
+        1,
+        -2
+      ],
+      "quaternion": [
+        0,
+        0.707,
+        0,
+        0.707
+      ],
+      "start_url": "https://webaverse.github.io/uzi/"
+    },
+    {
+      "position": [
+        -7,
+        1,
+        -2
+      ],
+      "quaternion": [
+        0,
+        0.707,
+        0,
+        0.707
+      ],
+      "start_url": "https://webaverse.github.io/pistol/"
+    },
+    {
+      "position": [
+        -8,
+        1,
+        -2
+      ],
+      "quaternion": [
+        0,
+        0.707,
+        0,
+        0.707
+      ],
+      "start_url": "https://webaverse.github.io/bow/"
+    }
+  ]
+}

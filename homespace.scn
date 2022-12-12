@@ -54,14 +54,6 @@
     {
       "position": [
         0,
-        -8,
-        0
-      ],
-      "start_url": "https://webaverse.github.io/cloud-sea/"
-    },
-    {
-      "position": [
-        0,
         0,
         0
       ],
@@ -119,47 +111,65 @@
     },
     {
       "position": [
-        -5.5,
+        -4.5,
+        0.3,
+        2
+      ],
+      "quaternion": [
         0,
-        3.5
+        0.708,
+        0,
+        0.706
       ],
       "start_url": "https://webaverse.github.io/characters/drake.npc"
     },
     {
       "position": [
-        -4,
-        0,
+        8,
+        1,
         3.5
+      ],
+      "quaternion": [
+        0,
+        0.708,
+        0,
+        0.706
       ],
       "start_url": "https://webaverse.github.io/characters/hyacinth.npc"
     },
     {
       "position": [
-        0,
-        -1.6,
-        3.5
+        17,
+        -2.1,
+        -2
       ],
       "quaternion": [
         0,
-        0.707,
         0,
-        0.707
+        0,
+        0
       ],
       "start_url": "https://webaverse.github.io/fox/"
     },
     {
       "position": [
-        -6,
-        0.2,
-        -2
+        32,
+        -2,
+        0.35
+      ],
+      "quaternion": [
+        0,
+        0.708,
+        0,
+        0.706
       ],
       "start_url": "https://webaverse.github.io/silsword/"
     },
     {
       "position": [
-        -6,
-        0.2,
-        -2
+        5,
+        -4,
+        25
       ],
       "quaternion": [
         0,
@@ -171,9 +181,9 @@
     },
     {
       "position": [
-        -7,
-        0.2,
-        -2
+        -2,
+        -1,
+        6.5
       ],
       "quaternion": [
         0,
@@ -185,9 +195,9 @@
     },
     {
       "position": [
-        -8,
-        0.2,
-        -2
+        13,
+        10,
+        -6.4
       ],
       "quaternion": [
         0,
@@ -196,6 +206,22 @@
         0.707
       ],
       "start_url": "https://webaverse.github.io/bow/"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "/scenes/island/"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "/scenes/test-cloud-sea/"
     }
   ]
 }

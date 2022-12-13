@@ -1,20 +1,28 @@
 {
   "objects": [
-    {
-      "type": "application/light",
-      "content": {
-        "lightType": "ambient",
-        "args": [[30, 100, 255], 1]
-      }
-    },
-    {
-      "type": "application/light",
-      "content": {
-        "lightType": "directional",
-        "args": [[255, 255, 255], 5],
-        "position": [1, 10, 3],
-        "shadow": [50, 4096, 0.1, 1000, 0, 0.2]
-      }
+{
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "components": [
+        {
+          "key": "sunLight",
+          "value": {
+            "args": [[255, 255, 255], 5],
+            "position": [1, 10, 3],
+            "shadow": [50, 4096, 0.1, 1000, 0, 0.2]
+          }
+        },
+        {
+          "key": "ambientLight",
+          "value": {
+            "args": [[30, 100, 255], 1]
+          }
+        }
+      ],
+      "start_url": "https://tcm390.github.io/sun-skydome/"
     },
     {
       "type": "application/rendersettings",
@@ -22,11 +30,6 @@
         "fog": {
           "fogType": "exp",
           "args": [[30, 100, 255], 0.001]
-        },
-        "ssao": {
-          "kernelRadius": 8,
-          "minDistance": 0.004,
-          "maxDistance": 0.05
         },
         "hdr": {
           "adaptive": true,
@@ -42,14 +45,6 @@
           "threshold": 0.98
         }
       }
-    },
-    {
-      "position": [
-        0,
-        0,
-        0
-      ],
-      "start_url": "https://webaverse.github.io/cloud-skydome/"
     },
     {
       "position": [
@@ -213,12 +208,12 @@
         0,
         0
       ],
-      "start_url": "/scenes/island/"
+      "start_url": "/scenes/island/index.js"
     },
     {
       "position": [
         0,
-        0,
+        -35,
         0
       ],
       "start_url": "/scenes/test-cloud-sea/"
